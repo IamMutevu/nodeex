@@ -6,5 +6,8 @@ function sub(a,b){
  return a-b
 }
 
-module.exports.add = add
-module.exports.sub = sub
+// module.exports.add = add
+// module.exports.sub = sub
+
+exports.add = add
+exports.sub = sub
